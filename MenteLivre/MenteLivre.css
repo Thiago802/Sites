@@ -1,0 +1,214 @@
+
+
+.corpo {
+    background-color: #151947;
+}
+
+.icon img {
+    
+    position: relative;
+    left: 15px;
+    top: 10px;
+    overflow-y: -1;
+    border-radius: 20px;
+    width: 90px 
+    height
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 80px;
+    top: 45px;
+}
+
+.top {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #a39607;
+
+    font-family: 'Special Elite', cursive;
+}
+
+.titulo {
+    font-size: 30px;
+    color: #a39607; 
+    position:relative;
+    left: 130px;
+    bottom: 60px;
+    font-family: 'Special Elite', cursive;
+
+}
+
+.linha{ 
+    background-color: black;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+}
+
+.ban img{
+    height : 450px;
+    width: 750px;
+    border-radius: 20px;
+    position: relative;
+    position: sticky;
+    left: 570px;
+    top: 60px;
+    box-shadow: 20px 5px 5px black;
+}
+
+.romance{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    color: aliceblue;
+position: relative;
+left: 1430px;
+bottom: 265px;
+}
+
+.one{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    color: aliceblue;
+position: relative;
+bottom:390px;
+left:295px;
+
+}
+
+
+.foda{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    color: aliceblue;
+position: relative;
+left: 830px;
+bottom: 120px;
+}
+
+.arsene{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    color: aliceblue;
+position: relative;
+left: 1400px;
+bottom: 500px;
+}
+
+.oz{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    color: aliceblue;
+position: relative;
+left: 298px;
+top:20px
+
+}
+
+
+.pop{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    color: aliceblue;
+position: relative;
+left: 830px;
+bottom: 330px;
+}
+
+
+
+.subtitulo {
+    position: relative;
+    top: 200px;
+    left: 80px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Special Elite', cursive;
+}
+
+.test {
+    position: relative;
+    top: 260px ;
+    left: 80px;
+    height: 250px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.548);
+} 
+
+
+.produto {   
+    display:grid;
+grid-template: 
+"img1 img2 img3" 200px "img4 img5 img6" 200px / 1fr 1fr 1fr;
+column-gap: 400px;
+row-gap: 100px;
+margin-top: 210px;
+margin-right: 500px;
+margin-left: 300px;
+}
+
+.img1{
+    grid-area:img1;
+}
+
+.img2{
+    grid-area:img2;
+}
+
+.img3{
+    grid-area:img3;
+}
+
+.img4{
+    grid-area:img4;
+}
+
+.img5{
+    grid-area:img5;
+}
+
+.img6{
+    grid-area:img6;
+}
+
+
+a {
+    color: #a39607;
+    text-decoration: none;
+text-align: center;
+font-family: 'Special Elite', cursive;
+}
+
+a:hover{
+    color: #cec99a;
+    text-decoration: underline;
+    font-family: 'Special Elite', cursive;
+}
+
+
+
+/* LOJA*/
+#livros {   
+    display:grid;
+grid-template-rows:25% ;
+grid-template-columns: 1fr 1fr 1fr;
+width: 75%;
+margin: 0 auto;
+column-gap: 400px;
+row-gap: 50px;
+margin-top: 210px;
+margin-right: 500px;
+margin-left: 300px;
+}
+
+/*.Pedgar{
+    position: relative;;
+    bottom: 700px;
+    margin-right: 130px;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    color: #a39607;
+
+}*/
