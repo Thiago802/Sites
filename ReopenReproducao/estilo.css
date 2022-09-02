@@ -1,0 +1,124 @@
+.margem {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    color: rgb(202, 201, 201);
+    z-index: -1;
+}
+
+.R {
+    height: 68px;
+    width: 60px;
+    position: absolute;
+    left: 880px;
+    bottom: 800px;
+    z-index: 1;
+
+}
+
+.Texto {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 680px;
+    bottom: 650px;
+    font-size :25px;
+    z-index: 1;
+}
+
+.textomenor {
+ position: absolute;  
+font-family: 'Roboto Serif', serif;
+left: 780px;
+bottom: 580px;
+font-size :15px;
+z-index: 1;
+}
+
+.cel {
+    position: absolute;
+    left: 330px;
+    top: 460px;
+    
+}
+
+.caderno {
+position: absolute;
+left: 660px;
+top: 460px;
+}
+
+.bg {
+    position: absolute;
+left: 1010px;
+top: 460px;
+}
+
+.disco {
+    position: absolute;
+    left: 658px;
+    top: 690px;
+}
+
+.star {
+    position: absolute;
+    left: 310px;
+    top: 940px;
+
+}
+
+.livro {
+    position: absolute;
+    top: 1190px;
+    left: 310px;
+}
+
+.produto {
+    position: absolute;
+    top: 1439px;
+    left: 310px;
+}
+
+.hamb {
+    position: absolute;
+    top: 1245px;
+    left: 658px;
+}
+
+.fundo {
+    position: absolute;
+    top: 1245px;
+    left: 1058px;
+}
+
+.seta {
+    position: absolute;
+    top : 1880px;
+    left: 780px ;
+}
+
+.textFinal {
+    z-index: 1;
+    position: absolute;
+    top: 2130px;
+    left: 500px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.textf {
+    z-index: 1;
+    position: absolute;
+    top: 2130px;
+    left: 1030px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.coracao {
+    position: absolute;
+    top: 2130px;
+    left: 995px;
+}
+
+a:hover {color: rgb(240, 54, 178);}
+
