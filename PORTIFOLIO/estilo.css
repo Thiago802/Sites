@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+body{
+    background-color:#8ca7d4 ;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+    color: black; 
+    background-color: #e3cc64;
+opacity: 0.9;
+height: 100px;
+min-width:80%;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+nav ul
+{   
+    display: flex;
+    justify-content: space-around;
+    width: 30% ;
+    
+}
+
+.icon
+{
+
+    
+    height: 5vh;
+    width: 5vh;
+    
+    text-align: center;
+    line-height: 5vh;
+
+    background-color: cornflowerblue;
+    border-radius: 100%;
+}
+
+#nome
+{
+    position: absolute;
+    top: 74vh;
+    left:50%;
+    font-size: 40px;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+#foto
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.paralelograma {
+    width: 300px;
+    height: 100px;
+    -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);
+    background: #c4b059;
+    align-items: center;
+
+    position: absolute;
+    left: 50%;
+    top: 90vh;
+
+    justify-content: space-around;
+    }
+
+span{
+    color:  #e3cc64;
+    font-size: medium;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 40px;
+}
+
+a :hover
+{ 
+    transition-delay: 0.5s;
+    transition: 0.3s;
+    height: 8vh;
+    width: 8vh;
+    color: #cab247;
+}
+
+a
+{
+    color: black;
+}
+
+span
+{
+    color: #e3cc64;
+    
+}
+
+#sobre
+{
+    position: absolute;
+    top: 120vh;
+    left: 10vh;
+}
+
+#foto2
+{
+    position: absolute;
+    top: 120vh;
+    left: 100vh;
+}
+
+h1 {
+    font-size: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+      blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 50%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: black;
+    }
+    to {
+      border-color: transparent;
+    }
+}
+
+/*#hab
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+    "img1 img2"
+    "img4 img5";
+    column-gap: 400px;
+    row-gap: 100px;
+    margin-top: 210px;
+    margin-right: 500px;
+    margin-left: 300px;
+}
+
+#html{
+    grid-area:img1;
+}
+
+#css{
+    grid-area:img2;
+}
+
+#c{
+    grid-area:img3;
+}
+
+#mysql{
+    grid-area:img4;
+}
+
+#php{
+    grid-area:img5;
+}
+*/
